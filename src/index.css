@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-size: clamp(1.6rem, 2vw + 1rem, 4rem);
+  @apply font-bold uppercase tracking-wider;
+}
+h2 {
+  font-size: clamp(1.2rem, 2vw + 1rem, 2rem);
+  @apply font-bold uppercase tracking-wider;
+}
+
+.wrapper {
+  max-width: 80rem;
+  margin-inline: auto;
+  @apply px-6;
+}
+body {
+  @apply font-sans;
+}
+.desktop-nav {
+  display: none;
+}
+@media (min-width: 1067px) {
+  .desktop-nav {
+    display: flex;
+  }
+}
+.hero {
+  height: calc(100% - 100px);
+}
+.hero-img {
+  max-width: 80%;
+}
+.partners {
+  grid-template-columns: 1fr 180px 1fr;
+}
+@media (min-width: 1067px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+.mission {
+  font-size: clamp(1.2rem, 2vw + 1rem, 2rem);
+  @apply font-bold uppercase tracking-wider;
+}
+.tab-container {
+  transform: translateY(-85px);
+}
+.tab-list > [aria-selected='true'] {
+  @apply shadow-xl bg-white;
+}
+.footer-links a {
+  display: block;
+}
