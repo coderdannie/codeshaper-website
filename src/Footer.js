@@ -19,15 +19,15 @@ const Footer = () => {
             </p>
             <div className="icons pt-6">
               <div className="flex items-center ">
-                <FaPhoneSquareAlt className="text-lightBlue pl-2 text-4xl" />
+                <FaPhoneSquareAlt className="text-lightBlue pl-2 text-4xl  mr-4" />
                 +92 666 888 0000
               </div>
               <div className="flex items-center ">
-                <MdEmail className="text-lightBlue pl-2 text-4xl" />
+                <MdEmail className="text-lightBlue pl-2 text-4xl  mr-4" />
                 needhelp@company.com
               </div>
               <div className="flex items-center ">
-                <ImLocation2 className="text-lightBlue pl-2 text-4xl" />
+                <ImLocation2 className="text-lightBlue pl-2 text-4xl  mr-4" />
                 66 Broklyn Street New York, USA
               </div>
             </div>

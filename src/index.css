@@ -31,7 +31,9 @@ body {
   height: calc(100% - 100px);
 }
 .hero-img {
-  max-width: 80%;
+  max-width: 85%;
+  @apply sm:max-w-[80%];
+  @apply lg:max-w-[100%];
 }
 .partners {
   grid-template-columns: 1fr 180px 1fr;

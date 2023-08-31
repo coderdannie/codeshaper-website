@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className=" bg-gray text-white h-screen">
       <div className="flex px-8 mx-auto items-center border-b-2 border-white h-[80px]">
-        <div className="logo w-[150px]  pr-2">
+        <div className="logo w-[250px]  lg:w-[150px] pr-2">
           <img src={logo} alt="chodeshaper logo" />
         </div>
         <Nav />

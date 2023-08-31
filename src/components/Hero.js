@@ -11,8 +11,8 @@ const Hero = () => {
           Discover More
         </a>
       </div>
-      <div className="hero-img w-[70%] md:w-full">
-        <img src={heroImg} alt="" />
+      <div className="hero-img md:w-full">
+        <img src={heroImg} alt="illustration" />
       </div>
     </div>
   );
