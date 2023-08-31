@@ -68,7 +68,6 @@ const Experience = () => {
             <p className="uppercase ">meet the partners</p>
             <div className=" bg-gray h-[1px]"></div>
           </div>
-
           <PartnersLogoSlide />
         </div>
       </section>

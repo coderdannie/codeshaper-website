@@ -3,7 +3,7 @@ const Hero = () => {
   return (
     <div className="hero wrapper grid gap-6 md:gap-8 md:grid-cols-2 items-center place-items-center text-center md:text-left">
       <div className="hero-text  mt-6  ">
-        <p className="hero-heading bg-slate-700 inline px-2 py-1 lg:text-2xl  ">
+        <p className="hero-heading bg-[#434B4D] inline px-2 py-1 lg:text-xl uppercase ">
           Welcome to Codeshaper
         </p>
         <h1 className="mt-8">Consulting For Every Business</h1>

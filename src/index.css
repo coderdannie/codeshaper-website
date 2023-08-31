@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 h1 {
-  font-size: clamp(1.6rem, 2vw + 1rem, 4rem);
+  font-size: clamp(1.6rem, 2vw + 1rem, 4.5rem);
   @apply font-bold uppercase tracking-wider;
 }
 h2 {
