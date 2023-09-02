@@ -3,18 +3,31 @@
 @tailwind utilities;
 
 h1 {
-  font-size: clamp(1.6rem, 2vw + 1rem, 4.5rem);
-  @apply font-bold uppercase tracking-wider;
+  font-size: clamp(1.6rem, 3.5vw + 1rem, 5.625rem);
+  color: #fcfcfc;
+  line-height: 1.2;
+  @apply font-bold uppercase;
 }
 h2 {
-  font-size: clamp(1.2rem, 2vw + 1rem, 2rem);
-  @apply font-bold uppercase tracking-wider;
+  font-size: clamp(1.2rem, 2vw + 1rem, 3.125rem);
+  @apply font-bold uppercase tracking-wider font-bold;
 }
-
+nav a {
+  font-weight: 600;
+  @apply text-base;
+}
+@media (min-width: 1197px) {
+  nav a {
+    @apply text-base xl:text-xl;
+  }
+}
 .wrapper {
   max-width: 80rem;
   margin-inline: auto;
   @apply px-6;
+}
+.header {
+  background-color: rgba(0, 0, 0, 0.72);
 }
 body {
   @apply font-sans;
@@ -22,13 +35,24 @@ body {
 .desktop-nav {
   display: none;
 }
-@media (min-width: 1067px) {
+@media (min-width: 1093px) {
   .desktop-nav {
     display: flex;
+  }
+  .header-container {
+    @apply h-[140px];
+  }
+}
+@media (min-width: 1094.4px) {
+  .toggle-bar {
+    display: none;
   }
 }
 .hero {
   height: calc(100% - 100px);
+}
+.hero p {
+  background-color: rgba(67, 75, 77, 0.74);
 }
 .hero-img {
   max-width: 85%;
@@ -44,8 +68,9 @@ body {
   }
 }
 .mission {
-  font-size: clamp(1.2rem, 2vw + 1rem, 2rem);
-  @apply font-bold uppercase tracking-wider;
+  font-size: clamp(1.2rem, 2vw + 1rem, 3.75rem);
+  @apply font-bold uppercase
+    tracking-wider;
 }
 .tab-container {
   transform: translateY(-85px);
@@ -55,4 +80,57 @@ body {
 }
 .footer-links a {
   display: block;
+}
+.cards {
+  gap: clamp(1.5rem, 5vmax, 2.5rem);
+}
+.partners-logos > button {
+  background-color: rgba(77, 123, 242, 0.17);
+}
+.experience-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 180px;
+  height: 400px;
+  background-image: url(./assets/Path\ 8.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 0;
+  transform: translateY(-46%);
+}
+.experience-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 180px;
+  height: 400px;
+  background-image: url(./assets/Path\ 7.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transform: translateY(550px);
+}
+.footer-container {
+  display: grid;
+  @apply gap-6;
+}
+@media (min-width: 640px) {
+  .footer-container {
+    @apply grid-cols-2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-container {
+    grid-template-columns: 2fr 1.5fr 2fr;
+  }
+}
+
+footer a {
+  @apply pb-4;
 }

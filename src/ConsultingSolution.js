@@ -13,28 +13,36 @@ const ConsultingSolution = () => {
                 <img src={img} alt="brainstorming icon" />
               </div>
               <h6 className="font-bold text-lg lg:text-4xl">420</h6>
-              <p className="uppercase text-sm pt-4">consulting solutions</p>
+              <p className="uppercase text-sm font-semibold pt-4">
+                consulting solutions
+              </p>
             </div>
             <div className="text-white px-4 flex flex-col justify-center lg:border-r-2 lg:border-gray">
               <div className="flex justify-center items-center mx-auto p-2 bg-black w-max">
                 <img src={img} alt="brainstorming icon" />
               </div>
               <h6 className="font-bold text-lg lg:text-4xl">420</h6>
-              <p className="uppercase text-sm pt-4">consulting solutions</p>
+              <p className="uppercase font-semibold  text-sm pt-4">
+                consulting solutions
+              </p>
             </div>
             <div className="text-white px-4 flex flex-col justify-center md:border-r-2 lg:border-gray">
               <div className="flex justify-center items-center mx-auto p-2 bg-black w-max">
                 <img src={img} alt="brainstorming icon" />
               </div>
               <h6 className="font-bold text-lg lg:text-4xl">420</h6>
-              <p className="uppercase text-sm pt-4">consulting solutions</p>
+              <p className="uppercase font-semibold  text-sm pt-4">
+                consulting solutions
+              </p>
             </div>
             <div className="text-white px-4 flex flex-col justify-center">
               <div className="flex justify-center items-center mx-auto p-2 bg-black w-max">
                 <img src={img} alt="brainstorming icon" />
               </div>
               <h6 className="font-bold text-lg lg:text-4xl">420</h6>
-              <p className="uppercase text-sm pt-4">consulting solutions</p>
+              <p className="uppercase font-semibold  text-sm pt-4">
+                consulting solutions
+              </p>
             </div>
           </div>
         </div>

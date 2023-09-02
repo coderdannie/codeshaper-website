@@ -10,7 +10,7 @@ const nav = () => {
           {links.map((link) => {
             return (
               <li key={link.id} className="px-4">
-                <a href="/" className="font-sans uppercase">
+                <a href="/" className="font-sans  font-medium  uppercase">
                   {link.text}
                 </a>
               </li>
@@ -28,13 +28,13 @@ const nav = () => {
               );
             })}
           </div>
-          <div className="search px-4 h-full border-x-2 border-white flex items-center">
+          <div className="search px-[40px] h-full border-x-2 border-white flex items-center">
             <button type="button">
-              <AiOutlineSearch className="w-[27px]" />
+              <AiOutlineSearch className="w-[27px] h-[27px]" />
             </button>
           </div>
           <div className="pl-4">
-            <p>
+            <p className="text-base lg:text-base font-semibold">
               Need help? <br />
               +92 666 888 0000
             </p>

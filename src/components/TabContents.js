@@ -6,31 +6,40 @@ const TabContents = () => {
   const { title, text, paragraph, list } = tabContent[currentItem];
 
   return (
-    <article className="pt-12">
+    <article className=" pt-[50px] md:pt-[70px]">
       <div className="tab-contents grid  gap-4 md:grid-cols-3">
         <div className="border-lightGray pb-4 pr-4 border-b-2 md:border-b-0 md:border-r-2 ">
-          <div className="flex gap-4">
-            <div className=" bg-lightGray flex items-center px-2">
+          <div
+            style={{ display: 'grid', gridTemplateColumns: '1fr auto' }}
+            className="gap-5 mb-[38px]"
+          >
+            <div className=" bg-[#EBF1FF] h-[70px] w-[70px] p-5 flex items-center ">
               <img src={icon} alt="feater-check-circle" />
             </div>
 
             <div>
-              <h3 className="uppercase font-semibold pb-2">{title}</h3>
-              <p className="text-gray">{text}</p>
+              <h3 className="uppercase font-semibold pb-2 text-base md:text-xl">
+                {title}
+              </h3>
+              <p className="text-[#726F84] font-medium">{text}</p>
             </div>
           </div>
-          <div className="flex gap-4 pt-4">
-            <div className=" bg-lightGray flex items-center px-2">
+          <div
+            style={{ display: 'grid', gridTemplateColumns: '1fr auto' }}
+            className="gap-5"
+          >
+            <div className=" bg-[#EBF1FF] h-[70px] w-[70px] p-5 flex items-center ">
               <img src={icon} alt="feater-check-circle" />
             </div>
-
             <div>
-              <h3 className="uppercase font-semibold">{title}</h3>
-              <p className="text-gray">{text}</p>
+              <h3 className="uppercase font-semibold text-base md:text-xl">
+                {title}
+              </h3>
+              <p className="text-[#726F84] font-medium">{text}</p>
             </div>
           </div>
         </div>
-        <div className="border-lightGray pb-4  px-6 border-b-2 md:border-b-0 md:border-r-2 text-gray">
+        <div className="border-lightGray pb-4  px-6 border-b-2 md:border-b-0 md:border-r-2 text-[#726F84] font-medium">
           <div className="flex flex-col gap-4">
             {paragraph}
             <div>
@@ -47,7 +56,7 @@ const TabContents = () => {
             </div>
           </div>
         </div>
-        <div className="border-lightGray pb-4  px-6 border-b-2 md:border-b-0  text-gray">
+        <div className="border-lightGray pb-4  px-6 border-b-2 md:border-b-0  text-[#726F84] font-medium">
           <div className="flex flex-col gap-4">
             {paragraph}
             <div>

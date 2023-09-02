@@ -9,7 +9,7 @@ const Questions = () => {
       <div className="wrapper py-[80px]">
         <div className="question-text text-center">
           <h2 className="uppercase">Question Answers</h2>
-          <p className="text-gray text-sm md:text-base font-semibold">
+          <p className="text-gray text-lg font-bold">
             We help our clients renew their business
           </p>
         </div>

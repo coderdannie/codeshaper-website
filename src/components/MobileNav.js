@@ -10,7 +10,10 @@ const MobileNav = () => {
             {links.map((link) => {
               return (
                 <li key={link.id} className="px-4 pb-5">
-                  <a href="/" className="font-sans uppercase ">
+                  <a
+                    href="/"
+                    className="font-sans font-bold text-lg uppercase "
+                  >
                     {link.text}
                   </a>
                 </li>
@@ -22,7 +25,7 @@ const MobileNav = () => {
               {icons.map((icons, i) => {
                 const { icon } = icons;
                 return (
-                  <a className="px-2" key={i} href="www.facebook.com">
+                  <a className="px-2 font-bold" key={i} href="www.facebook.com">
                     {icon}
                   </a>
                 );
@@ -30,10 +33,10 @@ const MobileNav = () => {
             </div>
             <div className="search px-4 h-full flex items-center">
               <button type="button">
-                <AiOutlineSearch className="w-[27px] mt-6 text-2xl" />
+                <AiOutlineSearch className="w-[27px] mt-6 text-4xl" />
               </button>
             </div>
-            <div className=" text-center pt-10">
+            <div className=" text-center pt-10 font-bold text-lg">
               <p>
                 Need help? <br />
                 +92 666 888 0000

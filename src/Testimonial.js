@@ -16,8 +16,10 @@ const Testimonial = () => {
         <div className="flex flex-col md:flex-row gap-6">
           <div className="md:w-[40%]">
             <div className="about-text">
-              <h2 className="pb-4">WHAT THEY ARE TALKING ABOUT?</h2>
-              <p className="text-gray pb-4">
+              <h3 className="pb-4 text-[1.6rem] md:text-[3rem]  lg:text-[4.0625rem] font-bold leading-tight">
+                WHAT THEY ARE TALKING ABOUT?
+              </h3>
+              <p className="text-[#726F84] pb-4 text-lg font-medium">
                 Trusted by more than 4,200 customers
               </p>
             </div>
