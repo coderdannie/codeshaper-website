@@ -1,13 +1,30 @@
 import { links } from '../utils/links';
 import { icons } from '../utils/SocialIcons';
 import { AiOutlineSearch } from 'react-icons/ai';
-
+import arrowDown from '../assets/Icon ionic-ios-arrow-down.svg';
 const nav = () => {
   return (
     <nav className="nav  h-full w-full">
       <div className="desktop-nav flex items-center justify-between  h-full">
         <ul className="nav-links  h-full border-l-[1px] border-white flex items-center">
           {links.map((link) => {
+            if (link.text === 'Services') {
+              return (
+                <li key={link.id} className="pl-4 pr-5">
+                  <a
+                    href="/"
+                    className="font-sans  font-medium  uppercase relative"
+                  >
+                    {link.text}{' '}
+                    <img
+                      className="absolute right-[-17px] top-[42%]"
+                      src={arrowDown}
+                      alt="arrow down icon"
+                    />
+                  </a>
+                </li>
+              );
+            }
             return (
               <li key={link.id} className="px-4">
                 <a href="/" className="font-sans  font-medium  uppercase">

@@ -1,4 +1,3 @@
-import logo from '../assets/partner-logo.png';
 export const links = [
   {
     id: 1,
