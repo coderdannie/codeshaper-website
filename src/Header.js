@@ -9,8 +9,8 @@ const Header = () => {
   const { isOpen, setIsOpen } = useGlobalContext();
   return (
     <header className="header text-white h-screen">
-      <div className="flex header-container px-8 p mx-auto items-center border-b-2 border-white h-[100px]">
-        <div className="logo w-[250px]  lg:w-[150px] pr-2">
+      <div className="flex header-container px-8 p mx-auto items-center border-b-[1px] border-white h-[100px]">
+        <div className="logo w-[250px]  lg:w-[150px] mr-6">
           <img src={logo} alt="chodeshaper logo" />
         </div>
         <Nav />

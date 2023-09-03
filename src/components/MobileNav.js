@@ -3,7 +3,7 @@ import { icons } from '../utils/SocialIcons';
 import { AiOutlineSearch } from 'react-icons/ai';
 const MobileNav = () => {
   return (
-    <div className="mobile-nav fixed bg-black left-0 right-0 py-10 bottom-0 top-20">
+    <div className="mobile-nav fixed bg-black left-0 right-0 py-10 bottom-0 top-[12%]">
       <div>
         <div className=" flex flex-col items-center justify-between  h-full">
           <ul className="nav-links  flex-col items-center  text-center">

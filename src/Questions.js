@@ -6,7 +6,7 @@ import img from './assets/Best-Question-and-Answer-Sites.jpg';
 const Questions = () => {
   return (
     <section>
-      <div className="wrapper py-[80px]">
+      <div className="wrapper py-[80] md:py-[100px]">
         <div className="question-text text-center">
           <h2 className="uppercase">Question Answers</h2>
           <p className="text-gray text-lg font-bold">
@@ -23,9 +23,9 @@ const Questions = () => {
             <div className="h-[283px] overflow-hidden mb-6">
               <img src={img} alt="Best-Question-and-Answer image" />
             </div>
-            <div className="flex justify-between flex-wrap items-center">
+            <div className="flex justify-between flex-wrap items-center  md:text-lg">
               <div className="text-gray mb-6">
-                <div className="flex items-center pb-2">
+                <div className="flex items-center pb-2 text-lg">
                   <GiCheckMark className="text-lightBlue pr-2 text-2xl font-bold" />
                   <p>Nsectetur cing elit.</p>
                 </div>

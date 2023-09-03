@@ -14,13 +14,16 @@ const Experience = () => {
           <p className=" font-bold md:text-lg text-[#726F84]">
             The best business consulting firm you can count on!
           </p>
-          <div className="cards flex justify-center flex-wrap mt-[4rem] mb-[4.5rem] lg:mb-[9.125rem]">
+          <div className="cards flex justify-center flex-wrap mt-[5rem] md:mt-[100px] mb-[4.5rem] lg:mb-[9.125rem]">
             <div className="card flex justify-between items-center gap-8 bg-black pt-[78px]  pl-[50px] pb-[57px] pr-[50px] text-left">
               <div>
                 <p className="pb-6  md:text-2xl ">
                   WEALTH <br /> MANAGEMENT
                 </p>
-                <a className="text-sm font-semibold  text-[#8F8DA0] " href="/">
+                <a
+                  className="text-[0.75rem] font-semibold  text-[#8F8DA0] "
+                  href="/"
+                >
                   READ MORE
                 </a>
               </div>
@@ -91,11 +94,11 @@ const Experience = () => {
                     {' '}
                     we're leading in the market
                   </h2>
-                  <p className="pb-6 pt-6 lg:pt-[40px] text-[#726F84] text-base md:text-lg">
+                  <p className="pb-6 pt-6 lg:pt-[40px] font-medium text-[#726F84] text-base md:text-lg">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Natus, esse numquam. Perferendis aspernatur.
                   </p>
-                  <p className="text-lightBlue text-lg lg:text-2xl mb-10 ">
+                  <p className="text-lightBlue font-medium text-lg lg:text-2xl mb-[50px] md:mb-[66px] ">
                     We have 35+ years of experience. We offer marketing and
                     consulting services
                   </p>
@@ -104,18 +107,26 @@ const Experience = () => {
                   <div className="progressbar-container relative">
                     <div className="progress-bar bg-lightGray h-4 rounded-lg after:absolute after:block after:bg-lightBlue after:top-[0] after:right-[16%] after:bottom-0 after:left-0 after:rounded-lg"></div>
                   </div>
-                  <div className="flex items-center justify-between w-[80%]">
-                    <h4 className="font-bold uppercase mt-2">consulting</h4>
-                    <span className="block text-gray font-normal">88%</span>
+                  <div className="flex items-center justify-between w-[80%] mt-[8px]">
+                    <h4 className="font-bold uppercase mt-2 text-sm">
+                      consulting
+                    </h4>
+                    <span className=" text-[#726F84] font-medium text-sm">
+                      88%
+                    </span>
                   </div>
                 </div>
                 <div className="mt-4">
                   <div className="progressbar-container relative">
                     <div className="progress-bar bg-lightGray h-4 rounded-lg after:absolute after:block after:bg-lightBlue after:top-[0] after:right-[38%] after:bottom-0 after:left-0 after:rounded-lg"></div>
                   </div>
-                  <div className="flex items-center justify-between w-[60%]">
-                    <h4 className="font-bold uppercase mt-2">advices</h4>
-                    <span className="block text-gray font-normal">68%</span>
+                  <div className="flex items-center justify-between w-[60%] mt-[8px]">
+                    <h4 className="font-bold uppercase mt-2 text-sm">
+                      advices
+                    </h4>
+                    <span className="block text-[#726F84] font-medium text-sm">
+                      68%
+                    </span>
                   </div>
                 </div>
                 <div className="enquiries flex items-center gap-4 mt-8">
@@ -123,9 +134,9 @@ const Experience = () => {
                     <BiPhoneCall className="text-lightBlue text-4xl" />
                   </div>
                   <div>
-                    <p className="text-[#726F84]">
+                    <p className="text-[#726F84] md:text-xl text-left">
                       Have any question? Give us a call{' '}
-                      <span className="block font-medium text-[#0F0D1D] ">
+                      <span className="block font-medium text-[#0F0D1D] md:text-lg">
                         +92 666 888 0000
                       </span>{' '}
                     </p>
@@ -133,8 +144,8 @@ const Experience = () => {
                 </div>
               </div>
             </div>
-            <div className="hidden lg:block h-[178px]">
-              <img src={avionImg} alt="avion img" />
+            <div className="hidden lg:block ">
+              <img className="mt-[-2rem]" src={avionImg} alt="avion img" />
             </div>
           </div>
           <div className="professional flex flex-col text-left md:flex-row translate-y-2">
@@ -144,7 +155,7 @@ const Experience = () => {
               </div>
               <div>
                 <div>
-                  <h4 className="uppercase font-bold pb-[20px]">
+                  <h4 className="uppercase font-bold pb-[20px] tex-lg md:text-xl">
                     get professional advice
                   </h4>
                   <p className="max-w-[50ch] text-[#726F84] font-medium">
@@ -160,7 +171,7 @@ const Experience = () => {
               </div>
               <div>
                 <div>
-                  <h4 className="uppercase font-bold pb-[20px]">
+                  <h4 className="uppercase font-bold pb-[20px] tex-lg md:text-xl">
                     TRUSTED & PROFESSIONAL
                   </h4>
                   <p className="max-w-[50ch] text-[#726F84] font-medium">

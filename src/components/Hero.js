@@ -1,7 +1,7 @@
 import heroImg from '../assets/undraw_programming_re_kg9v (1).svg';
 const Hero = () => {
   return (
-    <div className="hero wrapper grid gap-6 md:gap-8 md:grid-cols-2 items-center place-items-center text-center md:text-left">
+    <div className="hero wrapper grid gap-6 pb-[6rem] md:gap-8 md:grid-cols-2 items-center place-items-center text-center md:text-left">
       <div className="hero-text  mt-6  ">
         <p className="hero-heading font-medium inline px-[22px] py-3 lg:text-xl uppercase ">
           Welcome to Codeshaper

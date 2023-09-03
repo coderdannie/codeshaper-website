@@ -2,16 +2,16 @@ import carIcon from './assets/Icon metro-automobile.png';
 const CaseStudy = () => {
   return (
     <section className="case-study bg-lightGray ">
-      <div className="wrapper py-[100px]  md:mt-0">
-        <div className="case-study-text pt-[80px]">
+      <div className="wrapper pb-[130px] pt-[94px]  md:mt-0">
+        <div className="case-study-text pt-[80px] lg:pt-[94px]">
           <h2 className="uppercase text-center pb-5">new case studies</h2>
           <p className="text-[#8F8DA0] text-center font-bold md:text-lg">
             We help our clients renew their business
           </p>
         </div>
-        <div className="grid gap-6 mt-8 lg:mt-12 sm:grid-cols-2 md:grid-cols-3">
+        <div className="grid gap-6 mt-[48px] md:mt-[54px] sm:grid-cols-2 md:grid-cols-3">
           <div className="card w-[100%] h-[450px] pb-[50px] px-6 justify-center md:h-[500px] bg-[#0F0D1D6B] uppercase text-white grid items-end ">
-            <div className="lg:px-[40px] lg:pb-[30px]">
+            <div className="px-[40px] lg:pb-[30px]">
               <img
                 src={carIcon}
                 className='className=" md:w-[70px] md:h-[55px]"'
@@ -24,7 +24,7 @@ const CaseStudy = () => {
             </div>
           </div>
           <div className="card w-[100%] h-[450px] pb-[50px] px-6 justify-center md:h-[500px] bg-[#0F0D1D6B] uppercase text-white grid items-end ">
-            <div className="lg:px-[40px] lg:pb-[30px]">
+            <div className="px-[40px] lg:pb-[30px]">
               <img
                 src={carIcon}
                 className='className=" md:w-[70px] md:h-[55px]"'
@@ -36,8 +36,8 @@ const CaseStudy = () => {
               </h6>
             </div>
           </div>
-          <div className="card w-[100%] h-[450px] relative  pb-[50px] px-6 justify-center md:h-[500px] bg-[#0F0D1D6B] uppercase text-white grid items-end after:bg-lightBlue after:absolute after:bottom-0 after:left-0 after:right-0 after:top-[34%]">
-            <div className="lg:px-[40px] lg:pb-[30px] relative z-10">
+          <div className="card w-[100%] h-[450px] relative  pb-[50px] px-6 justify-center md:h-[500px] bg-[#0F0D1D6B] uppercase text-white grid items-end after:bg-lightBlue after:absolute after:bottom-0 after:left-0 after:right-[12%] after:top-[34%]">
+            <div className="px-[40px] lg:pb-[30px]  relative z-10">
               <img
                 src={carIcon}
                 className='className=" md:w-[70px] md:h-[55px]"'

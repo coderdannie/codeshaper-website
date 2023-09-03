@@ -1,7 +1,7 @@
 const Mission = () => {
   return (
     <section className="bg-[#0f0d1dbf] ">
-      <div className="wrapper py-[80px] flex flex-col justify-center items-center text-center text-white ">
+      <div className="wrapper py-[80px] md:py-[100px]  flex flex-col justify-center items-center text-center text-white ">
         <h4 className="mission uppercase  max-w-[20ch]">
           mission is to protect your businesses & much more
         </h4>

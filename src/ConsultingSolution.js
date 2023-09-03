@@ -6,9 +6,9 @@ const ConsultingSolution = () => {
   return (
     <section>
       <div className="bg-[#07122D] pb-12">
-        <div className="wrapper py-[80px]">
+        <div className="wrapper pt-[96px] pb-[240px]">
           <div className="grid justify-center gap-6 sm:grid-cols-2  lg:grid-cols-4 text-center ">
-            <div className="text-white px-4 flex flex-col justify-center  md:border-r-2 lg:border-gray">
+            <div className="text-white px-4 flex flex-col justify-center  lg:border-r-[1px] lg:border-[#707070B2]">
               <div className="flex justify-center items-center mx-auto p-2 bg-black w-max">
                 <img src={img} alt="brainstorming icon" />
               </div>
@@ -17,7 +17,7 @@ const ConsultingSolution = () => {
                 consulting solutions
               </p>
             </div>
-            <div className="text-white px-4 flex flex-col justify-center lg:border-r-2 lg:border-gray">
+            <div className="text-white px-4 flex flex-col justify-center lg:border-r-[1px] lg:border-[#707070B2]">
               <div className="flex justify-center items-center mx-auto p-2 bg-black w-max">
                 <img src={img} alt="brainstorming icon" />
               </div>
@@ -26,7 +26,7 @@ const ConsultingSolution = () => {
                 consulting solutions
               </p>
             </div>
-            <div className="text-white px-4 flex flex-col justify-center md:border-r-2 lg:border-gray">
+            <div className="text-white px-4 flex flex-col justify-center lg:border-r-[1px] lg:border-[#707070B2]">
               <div className="flex justify-center items-center mx-auto p-2 bg-black w-max">
                 <img src={img} alt="brainstorming icon" />
               </div>

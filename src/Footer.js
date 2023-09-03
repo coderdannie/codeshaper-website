@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="bg-darkBlue text-[#8F8DA0]">
       <div className="wrapper  ">
-        <div className="grid footer-container pt-[80px] pb-[90px] border-gray border-b-2">
+        <div className="grid footer-container pt-[80px] pb-[90px] border-gray border-b-[1px]">
           <div>
             <div className="logo mb-[44px]">
               <img className="w-[150px] " src={logo} alt="Codeshaper logo" />
@@ -32,7 +32,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="lg:mr-6">
             <h4 className="text-white font-bold text-lg mb-[44px]">Explore</h4>
             <div className="footer-links flex justify-between font-bold">
               <div>
@@ -54,7 +54,7 @@ const Footer = () => {
             <h4 className="text-white font-bold text-lg  mb-[44px]">
               Newsletter
             </h4>
-            <form className="bg-black py-[46px] px-[68px]">
+            <form className="bg-black  px-[40px] py-[46px] md:px-[68px]">
               <p className="  pb-[18px] font-bold font-lg">
                 Subscribe for latest articles and resources
               </p>

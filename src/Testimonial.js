@@ -12,7 +12,7 @@ const Testimonial = () => {
 
   return (
     <section className="about bg-[#F2F4F8] ">
-      <div className="wrapper py-[20px] md:pb-[60px] pb-[150px] lg:py-[80px] ">
+      <div className="wrapper pb-[100px] pt-[70px] md:pb-[150px] md:pt-[98px]">
         <div className="flex flex-col md:flex-row gap-6">
           <div className="md:w-[40%]">
             <div className="about-text">

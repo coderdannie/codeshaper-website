@@ -6,7 +6,7 @@ const nav = () => {
   return (
     <nav className="nav  h-full w-full">
       <div className="desktop-nav flex items-center justify-between  h-full">
-        <ul className="nav-links  h-full border-l-2 border-white flex items-center">
+        <ul className="nav-links  h-full border-l-[1px] border-white flex items-center">
           {links.map((link) => {
             return (
               <li key={link.id} className="px-4">
@@ -28,12 +28,12 @@ const nav = () => {
               );
             })}
           </div>
-          <div className="search px-[40px] h-full border-x-2 border-white flex items-center">
+          <div className="search px-[20px] h-full border-x-[1px] border-white flex items-center">
             <button type="button">
               <AiOutlineSearch className="w-[27px] h-[27px]" />
             </button>
           </div>
-          <div className="pl-4">
+          <div className="pl-6">
             <p className="text-base lg:text-base font-semibold">
               Need help? <br />
               +92 666 888 0000

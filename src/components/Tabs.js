@@ -13,8 +13,8 @@ const Tabs = () => {
             key={index}
             className={`${
               currentItem === index
-                ? 'tab-btn py-8  px-10 md:py-10 md:px-[60px] lg:py-[72px] lg:px-[100px] uppercase shadow-md font-semibold text-lightBlue text-xl bg-[#F2F4F8]'
-                : 'tab-btn py-8  px-10 md:py-10 md:px-[60px] lg:py-[72px] lg:px-[100px] uppercase shadow-md font-semibold text-black text-xl bg-[#F2F4F8]'
+                ? 'tab-btn py-8  px-10 md:py-10 md:px-[60px] lg:py-[72px] lg:px-[100px] uppercase shadow-lg font-bold text-lightBlue text-lg lg:text-xl bg-[#F2F4F8]'
+                : 'tab-btn py-8  px-10 md:py-10 md:px-[60px] lg:py-[72px] lg:px-[100px] uppercase shadow-md font-bold text-black text-lg lg:text-xl bg-[#F2F4F8]'
             }`}
             type="button"
             aria-selected={currentItem === index ? 'true' : 'false'}

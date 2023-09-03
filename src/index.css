@@ -40,7 +40,7 @@ body {
     display: flex;
   }
   .header-container {
-    @apply h-[140px];
+    @apply h-[120px];
   }
 }
 @media (min-width: 1094.4px) {
@@ -73,7 +73,7 @@ body {
     tracking-wider;
 }
 .tab-container {
-  transform: translateY(-85px);
+  transform: translateY(-110px);
 }
 .tab-list > [aria-selected='true'] {
   @apply shadow-xl bg-white;
