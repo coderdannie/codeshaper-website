@@ -40,7 +40,7 @@ body {
     display: flex;
   }
   .header-container {
-    @apply h-[10px];
+    @apply h-[120px];
   }
 }
 @media (min-width: 1094.4px) {
@@ -113,7 +113,7 @@ body {
   left: 0;
   bottom: 0;
   z-index: -1;
-  transform: translateY(680px);
+  transform: translateY(780px);
 }
 .footer-container {
   display: grid;
