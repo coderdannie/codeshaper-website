@@ -6,7 +6,7 @@ import img from './assets/Best-Question-and-Answer-Sites.jpg';
 const Questions = () => {
   return (
     <section>
-      <div className="wrapper py-[80] md:py-[100px]">
+      <div className="wrapper py-[80px] md:py-[100px]">
         <div className="question-text text-center">
           <h2 className="uppercase">Question Answers</h2>
           <p className="text-gray text-lg font-bold">
